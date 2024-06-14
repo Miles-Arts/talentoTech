@@ -1,0 +1,26 @@
+* {
+    /* box-sizing: border-box ; */
+    margin: 0;
+}
+
+h1 {
+    color: rgb(233, 9, 9);
+    /* color: #c7e909;
+    color: #0909e9; */
+}
+
+#contenido {
+    border: 2px dotted #c0cb25;
+    /* margin: 10px 20px; */
+    /* margin: 10px 20px 30px; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+    padding: 10px;
+}
+
+.texto {
+    
+}
