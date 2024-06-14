@@ -19,8 +19,39 @@ h1 {
     margin-right: 10px;
     margin-bottom: 10px; */
     padding: 10px;
+    /* padding: 10px 20px; */
+    /* padding: 10px 20px 30px; */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
 }
 
 .texto {
-    
+    font-weight: bold;
+    color: rgb(50, 119, 16);
+}
+
+input[required] {
+    border: 2px solid rgb(34, 58, 234);
+    background-color: yellow;
+}
+
+input[type="text"] {
+    border: 2px solid rgb(34, 58, 234);
+    background-color: rgb(224, 193, 230);
+}
+
+[class~="ejemplo"] { /*  linea eñe para especificar ~ */
+    margin: 10px;
+    border: 2px dashed rgb(83, 83, 203);
+}
+a[href*="google"] { /*  Asterisco para todo **/
+    background-color: aquamarine;
+}
+
+a[href^="https"] {
+    background-color: rgb(147, 193, 178);
+
 }
