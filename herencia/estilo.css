@@ -4,7 +4,7 @@ body {
 }
 
 .fondo {
-    background-color: rgb(40, 67, 185);
+    background-color: rgb(192, 201, 239);
 }
 
 p {
@@ -25,5 +25,6 @@ p[data-estado="activo"] {
 }
 
 .fondo p {
+    /* color: black !important; */
     color: black;
 }
