@@ -47,11 +47,21 @@ input[type="text"] {
     margin: 10px;
     border: 2px dashed rgb(83, 83, 203);
 }
-a[href*="google"] { /*  Asterisco para todo **/
+a[href*="https"] { /*  Asterisco para todo **/
+    font-weight: bold;
     background-color: aquamarine;
 }
 
-a[href^="https"] {
+img[src$=".png"] { /*  Final $ */
+    border: 3px dotted rgb(191, 25, 116);
+}
+
+a[href^="pagina2"] { /*  Por palabra ^ */
     background-color: rgb(147, 193, 178);
 
+}
+
+*[lang|="en"] { /*  Por palabra |*/
+    font-style: italic;
+    color: blueviolet;
 }
