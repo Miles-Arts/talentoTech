@@ -69,3 +69,29 @@ main {
     margin: auto;
     padding: 0 20px;
 }
+
+@media ( max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-toggle:checked  + .menu {
+        display: block;
+
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10;
+    }
+}
