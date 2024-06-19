@@ -4,7 +4,7 @@
     --background-color: rgb(168, 168, 181);
     --text-color: rgb(55, 19, 19);
     --link-color: rgb(50,  50, 200);
-    --nav-bg-color: rgb(56, 56, 66);
+    --nav-bg-color: rgb(128, 144, 103);
     --footer-bg-color: rgb(90, 41, 81);
     --section-padding: 20px; 
 }
@@ -16,6 +16,45 @@ body {
     margin: 0;
     background-color: var(--background-color);
     color: var(--text-color);
+}
+
+header {
+    /* padding: 20px 0; */
+    /* text-align: ; */
+}
+
+nav {
+    background-color: var(--nav-bg-color);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    
 }
 
 main {
