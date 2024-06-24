@@ -11,8 +11,12 @@
     <h1>Hola</h1>
     <script>
         
-         var saludar = "hola"
+         var saludar = "hola";
+         var mensaje = " Fin" + "....";
+         var mensaje1 = " Salir";
          var tiempo = 3;
+         var edad = 18;
+         var edad1 = 19;
 
          if (tiempo > 3 ) {
             console.log("Es mayor")
@@ -28,10 +32,28 @@
             console.log("Es Igual")
          }
 
+         if(edad < 18) {
+            console.log("Menor de edad")
+         } 
+         else if( edad >= 18 & edad < 25) {
+            console.log("Mayor de edad")
+         } else if (edad >= 25 & edad < 70) {
+            console.log("Adulto")
+         } else {
+            console.log("Adulto mayor")
+         }
 
-         console.log("Final")
+
+         console.log("La edad es: " + edad + mensaje + mensaje1)
 
 
+         if (edad == 18) {
+            console.log("es 18 ");
+         }
+
+         if (edad != 16) {
+            console.log("Diferente a 18 ");
+         }
 
     </script>
         
