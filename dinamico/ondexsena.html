@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hola</h1>
+    <p id="idParrafo"></p>
+
+
+<script>
+
+    const nuevaSuma = document.createElement("div");
+    nuevaSuma.innerText = "Hola Texto";
+    document.body.appendChild(nuevaSuma);
+
+    let elemento = document.getElementById("idParrafo");
+
+    let numero1 = 20;
+    let numero2 = 20;
+
+    var suma = numero1 + numero2;
+    var resta = numero1 - numero2;
+    var producto = numero1 * numero2;
+    var division = numero1 / numero2;
+
+    console.log("La suma de es: " + suma);
+    console.log("La resta es: " + resta);
+    console.log("El prodiuto es:" + producto);
+    console.log("La División es: " + division);
+
+
+</script>
+
+</body>
+</html>
