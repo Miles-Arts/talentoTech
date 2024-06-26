@@ -9,13 +9,19 @@
     
     <h1>Hola</h1>
     <p id="idParrafo"></p>
+    
+    <p id="idParrafo1"></p>
 
 
 <script>
 
     const nuevaSuma = document.createElement("div");
-    nuevaSuma.innerText = "Hola Texto";
+    nuevaSuma.innerText = "Hola TEXTO WORLD";
     document.body.appendChild(nuevaSuma);
+
+    const nuevoTexto = document.createElement("div");
+    nuevoTexto.innerText = "Ejemplo: un aprendiz aprueba un examen cuando la calificación de este es mayor o igual a 3. Elaborar un programa en JavaScript donde que dada una calificación, aplique el criterio de aprobación e imprima “Aprobado” o “Reprobado”, según sea el caso.";
+    document.body.appendChild(nuevoTexto);
 
     let elemento = document.getElementById("idParrafo");
 
@@ -27,10 +33,34 @@
     var producto = numero1 * numero2;
     var division = numero1 / numero2;
 
-    console.log("La suma de es: " + suma);
+    var hola = console.log("La suma de es: " + suma);
     console.log("La resta es: " + resta);
     console.log("El prodiuto es:" + producto);
     console.log("La División es: " + division);
+
+    var angulo = Math.PI * 3;
+    console.log("seno(3PI) " + Math.sin(angulo));
+
+    var potencia = Math.pow(6,3);
+    console.log("6^3 " + potencia);
+
+    // Ejemplo: un aprendiz aprueba un examen cuando la 
+    // calificación de este es mayor o igual a 3. 
+    // Elaborar un programa en JavaScript donde que 
+    // dada una calificación, aplique el criterio de 
+    // aprobación e imprima “Aprobado” o “Reprobado”, 
+    // según sea el caso.
+
+    var nota = 3;
+    nota = 2;
+
+    if (nota >= 3) {
+            console.log("Aprobado con nota: " + nota);
+    } else {
+        console.log("Reprobado con nota:" + nota);
+    }
+
+
 
 
 </script>
