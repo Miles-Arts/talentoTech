@@ -89,7 +89,7 @@
             console.log("Numero " + suma);
     }
 
-    var cantidaMas = 6;
+    var cantidaMas = 2;
     var sumaMas = 0;
 
     for ( let i = 1; i <= cantidaMas; i++ ) {
@@ -97,7 +97,60 @@
         console.log("Numero " + sumaMas);
     }
 
+    var sumaMenos = 5;
+    var resta = 0;
 
+    for (let i = 1; i <= sumaMenos; i++) {
+            resta -= i;
+            console.log("Resta: " + resta);
+    }
+
+    var var1 = 3;
+    var var2 = 4;
+
+    console.log( var2 > var1);
+    console.log( var2 < var1);
+    console.log(var1 !== var2);
+
+    var contador1 = 1;
+    var factorial = 1;
+    var numero33 = 3;
+
+    while ( contador1 <= numero33) {
+            factorial = factorial * contador1;
+            contador1 = contador1 + 1;
+            console.log(factorial);
+    }
+
+
+        let contador00 = 0;
+
+    while (contador00 < 2) {
+    console.log('El contador es: ' + contador00);
+    contador00++;
+    }
+
+    let frutas = [ "manzana", "durazno", "pera", "limón", "sandía", "Mora"];
+    console.log(frutas);
+    console.log(frutas.length);
+    console.log("----")
+
+    let arreglo  = [4, 30, 50, 33, 2];
+    console.log(arreglo[0]);
+    console.log(arreglo[3]);
+    console.log(arreglo[arreglo.length -1]);
+    console.log(arreglo[arreglo.length]);
+
+
+
+    let resultado20 = [];
+    for (let i =  1; i <= 10; i++ ) {
+            resultado20.push( i * 5);
+    }
+
+    for( let i = 1; i <= 10; i++ ) {
+            console.log( "5 x " + i + " = " + resultado20[i -1]);
+    }
 
 
 
