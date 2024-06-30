@@ -203,7 +203,7 @@
     }
 
     // Ejecutar la función con el array de edades predefinido
-    calcularEstadisticasEdades(edadesPersona);
+    // calcularEstadisticasEdades(edadesPersona);
 
     console.log("-----------------------------------")
 /*------------------------------------------------------------------*/
@@ -211,11 +211,51 @@
     /*  VECTOR DE LECTURA NUMEROS*/
     /*  PUNTO 3 */
 
+        function validarVector(vector) {
+            for (let i = 1; i < vector.length; i++) {
+                if (vector[i] < vector[i - 1]) {
+                    return false;
+                }
+            }
+            return true;
+        }
 
-    
+        function fusionarVectores(vector1, vector2) {
+            const fusion = [];
+            let i = 0, j = 0;
 
+            while (i < vector1.length && j < vector2.length) {
+                if (vector1[i] < vector2[j]) {
+                    fusion.push(vector1[i]);
+                    i++;
+                } else {
+                    fusion.push(vector2[j]);
+                    j++;
+                }
+            }
 
+            while (i < vector1.length) {
+                fusion.push(vector1[i]);
+                i++;
+            }
 
+            while (j < vector2.length) {
+                fusion.push(vector2[j]);
+                j++;
+            }
+
+            return fusion;
+        }
+
+        const vector1 = [2, 5, 40, 50, 80];
+        const vector2 = [4, 4, 53, 70, 5];
+
+        if (validarVector(vector1) && validarVector(vector2)) {
+            const vectorFusionado = fusionarVectores(vector1, vector2);
+            console.log("Vector fusionado y ordenado: " + vectorFusionado.join(', '));
+        } else {
+            console.log("Uno o ambos vectores no están en orden ascendente.");
+        }
 
 
     console.log("-----------------------------------")
@@ -223,6 +263,48 @@
 /*------------------------------------------------------------------*/
     /*  EMISORA RATIG*/
     /*  PUNTO 4 */
+
+   /*  permita conocer
+la respuesta de 6 personas con relación a sus gustos musicales. 
+Con fines administrativos y realizar una
+rifa entre las personas encuestadas, 
+la emisora desea poder registrar de las personas e
+ntrevistadas su
+
+nombre, número de identificación (cédula), 
+fecha de nacimiento, correo electrónico, ciudad de residencia,
+ciudad de origen. 
+ */
+        let usuariosEmisora = 
+            [ 
+            { id: 1, nombre: "Luisa España", identificacion:  1220, nacimiento: 1999, email: "luisa@ciudad.com", ciudad: "Cartagena", ciudadOrigen: "Cartagena", 
+                artistaFavorito: { artista: "ZOE", titulo: "amarillo", titulo: "azul", titulo: "morado"} },
+
+            { id: 2, nombre: "José Maradona", identificacion:  2020, nacimiento: 1995, email: "jose@ciudad.com", ciudad: "Tunja", ciudadOrigen: "Bogotá",  
+            artistaFavorito: { artista: "Lucas", titulo: "planta", titulo: "piedra", titulo: "casa"  }},
+
+            { id: 3, nombre: "Lina Palma", identificacion:  9090, nacimiento: 1998, email: "lina@ciudad.com", ciudad: "Medellín", ciudadOrigen: "Miami",  
+            artistaFavorito: { artista: "ZOE", titulo: "negro", titulo: "amarillo", titulo: "morado"  }},
+
+            { id: 4, nombre: "Claudia Lopez", identificacion:  1324, nacimiento: 1970, email: "@ciudad.com", ciudad: "Italia", ciudadOrigen: "Madrid",  
+            artistaFavorito: { artista: "Lucas", titulo: "planta", titulo: "árbol", titulo: "nube"  }},
+
+            { id: 4, nombre: "Diego Espitia", identificacion:  1515, nacimiento: 1991, email: "@ciudad.com", ciudad: "Tulua", ciudadOrigen: "Chia",  
+            artistaFavorito: { artista: "Lili", titulo: "viento", titulo: "agua", titulo: "marea"  }},
+
+            { id: 5, nombre: "Fernanda Medina", identificacion:  9060, nacimiento: 1989, email: "@ciudad.com", ciudad: "Cali", ciudadOrigen: "Leticia",  
+            artistaFavorito: { artista: "Lili", titulo: "marea", titulo: "agua", titulo: "viento"  }}
+
+            ]
+
+            console.log(usuariosEmisora);
+            console.log("Emisora");
+
+
+
+
+
+
 
 
 
