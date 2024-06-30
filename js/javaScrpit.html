@@ -156,7 +156,7 @@
     /*  VECTOR DE EDADES PERSONA*/
     /*  PUNTO 2 */
 
-    const edadesPersona = [2, 5, 40, 50, 80, 100, 35, 72, 18, 27];
+    const edades = [2, 5, 40, 50, 80, 100, 35, 72, 18, 27];
 
     // Función para calcular las estadísticas
     function calcularEstadisticasEdades(edades) {
@@ -264,47 +264,95 @@
     /*  EMISORA RATIG*/
     /*  PUNTO 4 */
 
-   /*  permita conocer
-la respuesta de 6 personas con relación a sus gustos musicales. 
-Con fines administrativos y realizar una
-rifa entre las personas encuestadas, 
-la emisora desea poder registrar de las personas e
-ntrevistadas su
-
-nombre, número de identificación (cédula), 
-fecha de nacimiento, correo electrónico, ciudad de residencia,
-ciudad de origen. 
- */
-        let usuariosEmisora = 
+        var usuariosEmisora = 
             [ 
-            { id: 1, nombre: "Luisa España", identificacion:  1220, nacimiento: 1999, email: "luisa@ciudad.com", ciudad: "Cartagena", ciudadOrigen: "Cartagena", 
-                artistaFavorito: { artista: "ZOE", titulo: "amarillo", titulo: "azul", titulo: "morado"} },
+            { 
+                id: 1, 
+                nombre: "Luisa España", 
+                identificacion:  1220, 
+                nacimiento: 1999, 
+                email: "luisa@ciudad.com", 
+                ciudad: "Cartagena", 
+                ciudadOrigen: "Cartagena", 
+                artistaFavorito: { 
+                    artista: "ZOE", 
+                    titulo: [ "amarillo", "azul", "morado"] 
+                }
+            },
 
-            { id: 2, nombre: "José Maradona", identificacion:  2020, nacimiento: 1995, email: "jose@ciudad.com", ciudad: "Tunja", ciudadOrigen: "Bogotá",  
-            artistaFavorito: { artista: "Lucas", titulo: "planta", titulo: "piedra", titulo: "casa"  }},
+            { 
+                id: 2, 
+                nombre: "José Maradona", 
+                identificacion:  2020, 
+                nacimiento: 1995, 
+                email: "jose@ciudad.com", 
+                ciudad: "Tunja", 
+                ciudadOrigen: "Bogotá",  
+                artistaFavorito: { 
+                    artista: "Lucas", 
+                    titulo: ["planta", "piedra", "casa"]  
+                }},
 
-            { id: 3, nombre: "Lina Palma", identificacion:  9090, nacimiento: 1998, email: "lina@ciudad.com", ciudad: "Medellín", ciudadOrigen: "Miami",  
-            artistaFavorito: { artista: "ZOE", titulo: "negro", titulo: "amarillo", titulo: "morado"  }},
+            { 
+                id: 3, 
+                nombre: "Lina Palma", 
+                identificacion:  9090, 
+                nacimiento: 1998, 
+                email: "lina@ciudad.com", 
+                ciudad: "Medellín", 
+                ciudadOrigen: "Miami",  
+                artistaFavorito: { 
+                    artista: "ZOE", 
+                    titulo: ["negro", "amarillo", "morado"]  
+                }},
 
-            { id: 4, nombre: "Claudia Lopez", identificacion:  1324, nacimiento: 1970, email: "@ciudad.com", ciudad: "Italia", ciudadOrigen: "Madrid",  
-            artistaFavorito: { artista: "Lucas", titulo: "planta", titulo: "árbol", titulo: "nube"  }},
+            { 
+                id: 4, 
+                nombre: "Claudia Lopez", 
+                identificacion:  1324, 
+                nacimiento: 1970, 
+                email: "@ciudad.com", 
+                ciudad: "Italia", 
+                ciudadOrigen: "Madrid",  
+                artistaFavorito: { 
+                    artista: "Lucas", 
+                    titulo: ["planta", "árbol", "nube"]  
+                }},
 
-            { id: 4, nombre: "Diego Espitia", identificacion:  1515, nacimiento: 1991, email: "@ciudad.com", ciudad: "Tulua", ciudadOrigen: "Chia",  
-            artistaFavorito: { artista: "Lili", titulo: "viento", titulo: "agua", titulo: "marea"  }},
+            { 
+                id: 4, 
+                nombre: "Diego Espitia", 
+                identificacion:  1515, 
+                nacimiento: 1991, 
+                email: "@ciudad.com", 
+                ciudad: "Tulua", 
+                ciudadOrigen: "Chia",  
+                artistaFavorito: { 
+                    artista: "Lili", 
+                    titulo: ["viento",  "agua",  "marea" ] 
+                }},
 
-            { id: 5, nombre: "Fernanda Medina", identificacion:  9060, nacimiento: 1989, email: "@ciudad.com", ciudad: "Cali", ciudadOrigen: "Leticia",  
-            artistaFavorito: { artista: "Lili", titulo: "marea", titulo: "agua", titulo: "viento"  }}
+            { 
+                id: 5, 
+                nombre: "Fernanda Medina", 
+                identificacion:  9060, 
+                nacimiento: 1989, 
+                email: "@ciudad.com", 
+                ciudad: "Cali", 
+                ciudadOrigen: "Leticia",  
+                artistaFavorito: { 
+                    artista: "Lili", 
+                    titulo: ["marea", "agua",  "viento"]  
+                }}
 
             ]
 
-            console.log(usuariosEmisora);
+            // usuariosEmisora.sort((a, b) => {
+            //         return b.nombre - a.nombre;
+            // });
+
+            console.log("Persona " + usuariosEmisora[1]);
             console.log("Emisora");
-
-
-
-
-
-
 
 
 
