@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENA</title>
+</head>
+<body>
+
+    <h1>JavaScript ADSO - SENA </h1>
+    <br>
+    <p>Evidencia de desempeño: GA3-220501093-AA3-EV02 resolución a problemas algorítmicos aplicando
+        estructuras de almacenamiento </p>
+        
+        <br>
+        /*------------------------------------------------------------------*/
+       
+        <p>1. Desarrollar un programa que permita calcular el área o perímetro 
+            de algunas figuras planas según lasiguiente tabla:
+        </p>
+        
+        <br>
+        
+        <p>Figuras:  Triangulo, Rectangulo, Cuadrado, Circulo</p> 
+
+        <br>
+        <p>/*------------------------------------------------------------------*/
+            /*------------------------------------------------------------------*/
+        </p>
+        <p>2. Desarrollar un programa que permita almacenar las edades de un grupo de 10 personas en un vector de
+            enteros y luego determine la cantidad de personas que son menores de edad, mayores de edad, cuántos
+            adultos mayores, la edad más baja, la edad más alta y el promedio de edades ingresadas.  
+        </p>
+        <br>
+        <p>
+            Para el ejercicio
+            anterior suponga que un adulto mayor debe tener una edad igual o superior a 60. Debe validar para cada
+            ingreso que los valores estén en un rango entre 1 y 120 años. En caso de error deberá notificar y solicitar
+            un nuevo valor.
+        </p>
+        <p>/*------------------------------------------------------------------*/
+            /*------------------------------------------------------------------*/
+        </p>
+
+
+    <script>
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+
+   /* Triangulo     */
+
+   /* PERÍMETRO  */
+    var a = 15;
+    var b = 10;
+    var c = 8;
+
+    var perimetroTriangulo = a + b + c;
+
+    console.log("El perímetro del triángulo es de: " + perimetroTriangulo );
+
+    /* AREA  */
+    var s = perimetroTriangulo / 2;
+
+    var area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+
+    console.log("El área del triángulo es: " + Math.round(area) + " m2");   
+/*------------------------------------------------------------------*/
+
+    /* Rectangulo  */
+    
+    /* PERÍMETRO  */
+    var altoRec = 20;
+    var ladoRec = 40;
+    var muntiplicarLadosRec = altoRec + ladoRec * 2;
+
+    console.log("El perímetro del Rectángulo es de: " + muntiplicarLadosRec );
+
+    /* ÁREA */
+    var areaRectangulo = altoRec * ladoRec; 
+    console.log("El área del Rectángulo es de: " + areaRectangulo );
+/*------------------------------------------------------------------*/
+
+    /* CUADRADO */
+    
+    /* PERÍMETRO  */
+    var ladosCuadrado = 20;
+    var perimetroCuadrado = ladosCuadrado * 4;   
+
+    console.log("El perímetro del Cuadrado es: " + perimetroCuadrado)
+        
+    /* ÁREA  */
+    var areaCuadrado = ladosCuadrado * ladosCuadrado;
+
+    console.log("El área del Cuadrado es: " + areaCuadrado)
+/*------------------------------------------------------------------*/
+
+    /* CÍRCULO */
+    
+    /* PERÍMETRO  */
+    var radioCirculo = 10
+    var perimetroCirculo = 2 * Math.PI * radioCirculo;
+
+    console.log("El perímetro del Círculo es: " + Math.round(perimetroCirculo) );
+   
+    /* ÁREA  */
+   
+    var areaCirculo = Math.PI * Math.pow(radioCirculo, 2);
+    console.log("El perímetro del Círculo es: " + Math.round(areaCirculo) );
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+    console.log("-----------------------------------")
+
+
+
+
+
+   
+   </script>
+    
+</body>
+</html>
