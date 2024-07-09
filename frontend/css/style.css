@@ -1,0 +1,8 @@
+.c-carousel img{
+    height: 500px;
+    object-fit: cover;
+}
+
+#map {
+    height: 400px;
+}
