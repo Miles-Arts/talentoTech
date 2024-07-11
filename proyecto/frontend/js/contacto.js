@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             console.log(`Formulario enviado con nombre ${nombre}, email ${email}, mensaje ${mensaje}, terminos ${terminos}`)
-            alert("Formulario enviado.")
+            alert("¡Formulario enviado con éxito!")
 
             form.reset()
 
