@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
            bosques.forEach( bosque => { 
             const verBosque = document.createElement("div")
-            verBosque.className = "col-md-4 "
+            verBosque.className = "col-lg-4 col-md-6 col-sm-6 "
             verBosque.innerHTML =  `  
                     <div class="card" style="width: 18rem;">
                         <img src="./img/${bosque.img}" class="card-img-top" alt="Imagen de Bosque de ${bosque.nombre}">
