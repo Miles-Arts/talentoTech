@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const servicios = [
         {
             id: 1,
-            nombre: "Tour de Avistamiento de Áboles",
-            descripcion: "Participa en nuestros tours guiados y experimenta la belleza y diversidad de los árboles.",
-            imagen: "avistamiento.webp" 
+            nombre: "Tour de caminatas por los Bosques en Boyacá",
+            descripcion: "Participa en nuestros tours guiados y experimenta la belleza y diversidad de los bosques.",
+            imagen: "avistamiento.jpg" 
         },
         {
             id: 2,
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 3,
             nombre: "Programas Educativos",
             descripcion: "Involúcrate en nuestros programas educativos diseñados para todas las edades y aprende sobre la importancia de la biodiversidad arborea.",
-            imagen: "programas.jpg"
+            imagen: "programas1.jpg"
         }
     ];
  
