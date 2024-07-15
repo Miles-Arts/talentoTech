@@ -8,9 +8,9 @@
 #Sentencia 
 #Python lee de Derecha a Izquierda
 # #El String se ASIGNA en memeria a X
-x = "Python es" #Inicializacion de la Variable la priemra vez que la usamos. 
-y = " fácil ❤  love"
-z =  x + y
+# x = "Python es" #Inicializacion de la Variable la priemra vez que la usamos. 
+# y = " fácil ❤  love"
+# z =  x + y
 
 # palabra1 = "Hola"
 # palabraDos = " Talento"
@@ -44,13 +44,47 @@ z =  x + y
 
 #No hay Llaves se utilizan las dos punto :
 # Se utiliza Sangría
-if(2<3):
-    print("Hola")
-    print(" Talento")
+# if(2<3):
+#     print("Hola")
+#     print(" Talento")
 
-#Comentario
-"""Buen día"""
+# #Comentario
+# """Buen 
 
+# multiples líneas
+
+# día"""
+
+
+# #INPUTs
+
+# print("Todo lo que ingrese por INPUT es STRING")
+# nombre = input("Ingrese nombre: ")
+# #print("Hola", nombre, " Bienvenido a Misión Tech")
+
+# print(f"Hola {nombre}  Bienvenido a Misión Tech")
+# numero1 = input("Numero: ")
+# numero2 = input("Numero: ")
+
+# #se debe añadir Int, para pasar los input string a NUMEROS
+# #Todo lo que ingrese por INPUT es STRING
+# numero1= int(numero1)
+# numero2= int(numero2)
+
+# suma = numero1 + numero2
+
+# print(f"Resultado {nombre} de su suma: {suma} XD")
+
+
+numero1 = input("Numero: ")
+numero2 = input("Numero: ")
+
+numero1= int(numero1)
+numero2= int(numero2)
+
+suma = numero1 + numero2
+
+print(f"Resultado  de su suma: {suma} XD")
 
 
 
