@@ -14,13 +14,14 @@ z =  x + y
 
 palabra1 = "Hola"
 palabraDos = " Talento"
-palabraTres = " Tech"
-union = palabra1 + palabraDos + palabraTres
+palabra_tres = " Tech"
+union = palabra1 + palabraDos + palabra_tres
 
 print("✅ Concatenación: " + z + " 👈")
 print("Buen día: " + union + " 👈")
 
-
+#con efe -f-Toma el valor de la Variable no el nombre de la variable
+print(f"Cocatenación {palabra1}") 
 
 
 
