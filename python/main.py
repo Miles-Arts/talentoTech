@@ -23,6 +23,21 @@ print("Buen día: " + union + " 👈")
 #con efe -f-Toma el valor de la Variable no el nombre de la variable
 print(f"Cocatenación {palabra1}") 
 
+print(type(2))
+print(type(3.5))
+print(type(True))
+print(type('Hola'))
+print(type(1+3j))
+
+#Castear convertir un valor a otro, numero a numero STRING
+
+
+
+
+
+
+
+
 
 
 
