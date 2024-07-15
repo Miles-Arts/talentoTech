@@ -77,14 +77,14 @@
 
 
 numero1 = input("Numero: ")
-numero2 = input("Numero: ")
+numero2 = int(input("Numero: "))
 
 numero1= int(numero1)
-numero2= int(numero2)
+#numero2= int(numero2)
 
 suma = numero1 + numero2
 
-print(f"Resultado  de su suma: {suma} XD")
+print(f"Resultado  de su suma: {suma}")
 
 
 
