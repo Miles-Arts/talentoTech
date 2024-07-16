@@ -1,3 +1,6 @@
+import math
+import random
+
 # # xc = 3
 # # print(f"Hola {xc}")
 
@@ -48,48 +51,64 @@
 
 #Operadores de comparación-------------------------------------------------
 
-x = "Juanita"
-y = 'n'
-z = 2
-a = 5.8
-b = True
+# x = "Juanita"
+# y = 'n'
+# z = 2
+# a = 5.8
+# b = True
 
-print(type(x) == str)
-print(type(y) == str)
-print(type(z) == str)
-print(type(a) == float)
-print(type(b) == bool)
+# print(type(x) == str)
+# print(type(y) == str)
+# print(type(z) == str)
+# print(type(a) == float)
+# print(type(b) == bool)
 
-print(1 == 1)
-print(1 != 1)
-print(1 > 2)
-print(2 < 2 )
-print(1 >= 1)
-print(2 <= 3)
+# print(1 == 1)
+# print(1 != 1)
+# print(1 > 2)
+# print(2 < 2 )
+# print(1 >= 1)
+# print(2 <= 3)
 
-#Operadores lógicos----------------------------------------
+#Operadores lógicos----------------------------------------------
 
-print(True and True)
-print(True and False)
-print(False and True)
-print(False and False)
-print(True or True)
-print(True or False)
-print(False or True)
-print(False or False)
-print(not False)
+# print(True and True)
+# print(True and False)
+# print(False and True)
+# print(False and False)
+# print(True or True)
+# print(True or False)
+# print(False or True)
+# print(False or False)
+# print(not False)
+
+#Precedencia de operadores------------------------------------------
+# numero1 = 2
+# numero2 = 5
+
+# print("Resultado:", numero1 * numero2 // 3)
+# print("Resultado:", (numero1 * numero2) // 3)
+# print("Resultado:", numero1 * (numero2 // 3))
+
+#Librería de matemáticas--------------------------------------------
+
+# help(math)
+# math.sqrt(9)
+# math.log()
 
 
+# num = 20
+# num23 = 30
+# sum = num * num23
+# print(math.pi(num)) 
 
 
+#Librería de random-------------------------------------------------
 
 
+# random.random()
+# numero =((random.random()) * 10) % ( 6 + 1 )
+# print("Resultado", numero) 
 
 
-
-
-
-
-
-
-
+#Condicionales-------------------------------------------------------
