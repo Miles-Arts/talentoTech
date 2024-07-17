@@ -4,7 +4,7 @@ import random
 # # xc = 3
 # # print(f"Hola {xc}")
 
-#input---------------------------------------------------------------
+#input---------------------------------------------------------
 
 # nombre = input ("Ingrese su nombre: ")
 # print(f"Gran gusto tener acá, {nombre}, estás en BackMaria")
@@ -18,8 +18,8 @@ import random
 # sumaq = number1 + number2
 
 # number2 = input(f"La suma de los números {number1} y {number2} es: {sumaq}")
-
-#Operadores asignación------------------------------------------------
+#
+#Operadores asignación------------------------------------------
 # numero = 1
 # suma = 2 + 4
 # c = suma + numero * 3
@@ -37,7 +37,7 @@ import random
 # print("Valor numero:", numero)
 
 
-#Operadores aritméticos------------------------------------------------
+#Operadores aritméticos------------------------------------------
 # numero1 = 2
 # numero2 = 5
 # print("Suma:", numero1 + numero2 )
@@ -49,7 +49,7 @@ import random
 # print("Potencia:", numero1 ** numero2 )
 
 
-#Operadores de comparación-------------------------------------------------
+#Operadores de comparación--------------------------------------
 
 # x = "Juanita"
 # y = 'n'
@@ -70,7 +70,7 @@ import random
 # print(1 >= 1)
 # print(2 <= 3)
 
-#Operadores lógicos----------------------------------------------
+#Operadores lógicos---------------------------------------------
 
 # print(True and True)
 # print(True and False)
@@ -82,7 +82,7 @@ import random
 # print(False or False)
 # print(not False)
 
-#Precedencia de operadores------------------------------------------
+#Precedencia de operadores--------------------------------------
 # numero1 = 2
 # numero2 = 5
 
@@ -90,7 +90,7 @@ import random
 # print("Resultado:", (numero1 * numero2) // 3)
 # print("Resultado:", numero1 * (numero2 // 3))
 
-#Librería de matemáticas--------------------------------------------
+#Librería de matemáticas-----------------------------------------
 
 # help(math)
 # math.sqrt(9)
@@ -103,7 +103,7 @@ import random
 # print(math.pi(num)) 
 
 
-#Librería de random-------------------------------------------------
+#Librería de random----------------------------------------------
 
 
 # random.random()
@@ -111,14 +111,14 @@ import random
 # print("Resultado", numero) 
 
 
-#Condicionales-------------------------------------------------------
+#Condicionales----------------------------------------------------
 #IF
 # edad = 20
 
 # if edad > 18:
 #     print(f"Mayor a 18")
 
-#IF ELSE------------------------------------------------------------
+#IF ELSE---------------------------------------------------------
 #IF es condicion
 
 # edad = input("Ingrese su edad: " )
@@ -152,7 +152,7 @@ import random
 #     print(f"Es adulto mayor tiene: {edad} años.")
 
 
-#If ANIDADO--------------------------------------
+#If ANIDADO-----------------------------------------------
 #if condicion:
         # if condicion :
         # SENTENCIA
@@ -164,21 +164,37 @@ import random
         # else:
         # SENTENCIA
 
-edad = input("Ingrese su edad: ")
+# edad = input("Ingrese su edad: ")
 
-edad = int(edad)
+# edad = int(edad)
 
-if edad < 18:
-    if edad > 12 and edad < 18:
-        print(f"Es adolecente con {edad} años.")
-    else:
-        print("Está en la niñez") 
+# if edad < 18:
+#     if edad >= 12 and edad < 18:
+#         print(f"Es adolecente con {edad} años.")
+#     else:
+#         print("Está en la niñez") 
 
+# else:
+#     if edad >= 18 and edad < 60:
+#         print(f"Es adulto tiene {edad} años.")
+#     else:
+#         print(f"Es adulto mayor con {edad} años.")    
+
+
+#Operador ternario-----------------------------------------------
+#
+# [true] if [expresion] else [false]
+# 
+
+numero = input("Ingrese un número: ")
+numero = int(numero)
+
+if numero % 2 == 0:
+    print(f"El numero {numero} es par")
 else:
-    if edad >= 18 and edad < 60:
-        print(f"Es adulto tiene {edad} años.")
-    else:
-        print(f"Es adulto mayor con {edad} años.")    
+    print(f"El número {numero} es impar")    
+
+
 
 
 
