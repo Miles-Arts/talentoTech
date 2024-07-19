@@ -186,19 +186,58 @@ import random
 # [true] if [expresion] else [false]
 # 
 
-numero = input("Ingrese un número: ")
-numero = int(numero)
+# numero = input("Ingrese un número: ")
+# numero = int(numero)
 
-if numero % 2 == 0:
-    print(f"El numero {numero} es par")
-else:
-    print(f"El número {numero} es impar")    
-
-
+# if numero % 2 == 0:
+#     print(f"El numero {numero} es par")
+# else:
+#     print(f"El número {numero} es impar")    
 
 
+#List-------------------------------------------------
 
 
+# nombre = "Pepe"
+# edad = 25
+# lista = [nombre, edad]
+# print(lista)
+
+# nombre = "Juan"
+# print(lista)
+
+
+# nombres = ["Ana", "Catalina"]
+# edades = [20, 25]
+# listas = [nombres, edades]
+# print(listas)
+# nombres += ["Paola"]
+# edades +=[28]
+# print(listas)
+
+
+#List-------------------------------------------------
+#Acceder a una LIST-----------------------------------
+
+nombre = "Sócrates"
+edad = 25
+lista = [nombre, edad]
+print(lista[0])
+
+lista1 = ["Fito", 25]
+lista2 = ["Maria", 18]
+lista = lista1 + lista2
+print(lista)
+
+# Lista sólo CONCATENA listas. no concate un 
+# valor suelto a una lñista
+
+vocales = ["E", "I", "O"]
+print(vocales)
+vocalles = vocales + ["U"]
+print(vocales)
+vocales = "A" + vocales
+print(vocales)
 
 
 
