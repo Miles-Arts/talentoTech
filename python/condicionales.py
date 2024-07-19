@@ -86,8 +86,39 @@
 
 # print("fin")   
 
-# --------
+# OERADOR TERNARIO--------
 
+numero = 4
+
+# numero = input("Ingrese un número: ")
+# numero = int(numero)
+
+# SINTAXIS OPERADOR TERNARIO------------
+# if numero % 2 == 0:
+#     print(f"El numero {numero} es par")
+# else:
+#     print(f"El número {numero} es impar")    
+
+
+# # SINTAXIS OPERADOR TERNARIO------------
+# print(f"El numero {numero} es par") if numero % 2 == 0 else print(f"El número {numero} es impar")   
+
+
+# 
+# Ternario otro ejemplo# --------------------------
+
+# a = 5
+# b = 10
+# if a > b:
+#     mayor = a
+# else:
+#     mayor = b
+
+# #Son lo mismo
+
+# mayor = a if a > b else b
+# print(mayor)
+# # --------------------------
 
 
 
