@@ -219,25 +219,65 @@ import random
 #List-------------------------------------------------
 #Acceder a una LIST-----------------------------------
 
-nombre = "Sócrates"
-edad = 25
-lista = [nombre, edad]
-print(lista[0])
+# nombre = "Sócrates"
+# edad = 25
+# lista = [nombre, edad]
+# print(lista[0])
 
-lista1 = ["Fito", 25]
-lista2 = ["Maria", 18]
-lista = lista1 + lista2
-print(lista)
+# lista1 = ["Fito", 25]
+# lista2 = ["Maria", 18]
+# lista = lista1 + lista2
+# print(lista)
 
-# Lista sólo CONCATENA listas. no concate un 
-# valor suelto a una lñista
+# Lista sólo CONCATENA listas. no concate un ------------------
+# valor suelto a una lñista-------------
 
-vocales = ["E", "I", "O"]
-print(vocales)
-vocalles = vocales + ["U"]
-print(vocales)
-vocales = "A" + vocales
-print(vocales)
+# vocales = ["E", "I", "O"]
+# print(vocales)
+# vocalles = vocales + ["U"]
+# print(vocales)
+# vocales = "A" + vocales
+# print(vocales)
+# vocales = ["A"] + vocales
+# print(vocales)
+
+
+#List-------------------------------------------------
+# Se puede utilizar número negativos -------------
+# para hallar su posición-----------------
+
+# fecha = [27, "Octubre", 1997]
+# print(fecha[-1])
+# print(fecha[-2])
+# print(fecha[-3])
+
+# fecha = [27, "Octubre", 1997]
+# fecha[2] = 2000
+# print(fecha[0])
+# print(fecha[1])
+# print(fecha[2])
+
+#List------------------------------------------------
+# Todas las operaciones de corte devuelven una nueva LIST------
+
+
+# factura = ["pan", "huevos", 100, 1234]
+# print("0",factura)
+# print("1",factura[-2:])
+# print("2",factura[:])
+# print("3",factura[1:])
+# print("4",factura[:2])
+# print("5",factura[1:3])
+# print("6",factura[::-1])
+# print("7",factura[::2])
+# print("8",factura[1:4:2])
+# print("9",factura*2)
+
+#Si se intenta acceder a un elemento ------------
+# fuera del rango sale exception IndexError---------
+factura = ["pan", "huevos", 100, 1234]
+print(factura[4])
+
 
 
 
