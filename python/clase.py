@@ -17,6 +17,8 @@ import uuid
 #Valor Producto sin IVA
 #Valor producto con IVA
 
+import uuid
+
 def generar_id_producto():
 
     idLargo = str(uuid.uuid4())

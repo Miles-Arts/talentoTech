@@ -2,12 +2,12 @@
 # IF
 
 
-edad = 20
+# edad = 20
 
-if edad > 18:
-    print(f"Mayor a 18")
+# if edad > 18:
+#     print(f"Mayor a 18")
 
-print("fin")    
+# print("fin")    
 
 
     #IF ELSE---------------------------------------------------------
@@ -42,4 +42,35 @@ print("fin")
 
 # else:
 #     print(f"Es adulto mayor tiene: {edad} años.")
+
+#IF
+edad = 20
+
+if edad < 18:
+    print(f"Menor a 18")
+    print(f"tiene {edad} años.")
+
+elif edad > 18 and edad <= 60:
+    print(f"Es Adulto")
+    print(f"tiene {edad} años.")
+
+else:
+    print(f"Mayor de edad")
+    print(f"tiene {edad} años.")
+
+print("fin")    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
