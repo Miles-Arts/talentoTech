@@ -304,11 +304,17 @@ import random
 # APPEND() añade un elemento en la posición al FINAL
 # EXTEND() agrega elementos de otra lista-
 
-factura = ["pan", "huevos", 100, 1234]
-print(f"1 {factura}")
-factura.append("chocolate") #Fianl List
-print(f"2 {factura}")
-factura.insert(2, "queso") #en el puesto 2 List
-print(f"3 {factura}")
+# factura = ["pan", "huevos", 100, 1234]
+# print(f"1 {factura}")
+# factura.append("chocolate") #Fianl List
+# print(f"2 {factura}")
+# factura.insert(2, "queso") #en el puesto 2 List
+# print(f"3 {factura}")
 
-
+factura1 = ["pan", "huevos", 100, 1234] 
+factura2 = ["chocolate", "queso", 200, 50]
+factura1.extend(factura2)
+print(factura1)
+factura3 = ("agua", "huevos")
+factura1.extend(factura3)
+print(factura1)
