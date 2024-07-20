@@ -274,10 +274,41 @@ import random
 # print("9",factura*2)
 
 #Si se intenta acceder a un elemento ------------
-# fuera del rango sale exception IndexError---------
+# # fuera del rango sale exception IndexError---------
+# factura = ["pan", "huevos", 100, 1234]
+# print(factura[4])
+
+
+# LIst -------------------------------------
+# Tipos de datos en la lista----------------
+
+
+# list1 = ["apple", "banana", "cherry"]  #String
+# list2 = [1, 5, 7, 9, 3] #Number
+# list3 = [True, False, False] #Boolean
+
+# print(f"String {list1}")
+# print(f"Number {list2}")
+# print(f"Boolean {list3}")
+
+# factura = ["pan", "huevos", 100, 1234]
+# print(f"1 {factura}")
+# factura[1:3] = ["queso", 200]
+# print(f"2 {factura}")
+# factura[1:3] = ["queso", 200, "leche"]
+# print(f"3 {factura}")
+# factura[1:5] = ["chocolate"]
+# print(f"4 {factura}")
+
+# LIst ------------------------------------
+# APPEND() añade un elemento en la posición al FINAL
+# EXTEND() agrega elementos de otra lista-
+
 factura = ["pan", "huevos", 100, 1234]
-print(factura[4])
-
-
+print(f"1 {factura}")
+factura.append("chocolate") #Fianl List
+print(f"2 {factura}")
+factura.insert(2, "queso") #en el puesto 2 List
+print(f"3 {factura}")
 
 
